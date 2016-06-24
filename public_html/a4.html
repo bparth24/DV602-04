@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>DSC 530 Assignment #4</title>
+        <style>
+            .axis path, .axis line {
+                fill: none;
+                stroke: black;
+                shape-rendering: crispEdges;
+            }
+            text {
+                font-family: sans-serif;
+                font-size: 10pt;
+            }
+            .hidden {
+                display: none;
+            }
+            #map {
+                display: inline-block;
+            }
+            #hist {
+                display: inline-block;
+            }            
+            .highlight {
+                fill: red;
+            }
+            #name{ color: blue;}
+            .makebold{ font-weight: bold;}
+            .makeItalic{ font-style: italic; font-weight: normal;}
+        </style>  
+    </head>
+    <body>
+        <div id="info">
+            <h3 id="name">Parth K. Bhatt</h3>
+            <h4 id="studentID" class="makebold">#007</h4>
+            <h4 id="courseTitle" class="makebold">Data Visualization (DSC 530/602-01)</h4>
+            <h4 id="assignmentTitle" style="font-weight: normal;">Assignment #4</h4>
+            <p>This assignment is all my own work. I did not copy or rewrite the code from any other source.</p>
+            <hr>
+        </div>
+        <div id="map"></div>
+        <div id="hist"></div>
+        <div id="bar"></div>
+        <hr>
+        <!-- Reference Section starts -->        
+        <h3 class="makebold">References</h3>
+        <div id="reference">
+            <a target="_blank" href="http://bl.ocks.org/mattparrilla/5724610"> Tooltip example</a><br>
+            <a target="_blank" href="http://stackoverflow.com/questions/12999958/d3-fisheye-on-width-on-bar-chart"> Fisheye example</a><br>
+        </div>
+        <!-- Reference Section ends -->
+
+        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+        <script src="http://d3js.org/queue.v1.min.js"></script>
+        <script src="https://bost.ocks.org/mike/fisheye/fisheye.js"></script>
+        <script type="text/javascript" src="http://www.cis.umassd.edu/~dkoop/dsc530-2016sp/a4/a4-do-not-copy-or-change.js"></script>
+        <!-- Your code can either go in a separate file (e.g. a4.js) or in the script tag below -->
+        <script type="text/javascript" src="a4.js"></script>
+        <script type="text/javascript">
+
+        </script>
+    </body>
+</html>
